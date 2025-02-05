@@ -1,0 +1,83 @@
+p {
+    color: white;
+    background-color: black
+}
+
+.list {
+    color: white;
+    background-color: black
+}
+
+
+h1 {
+    color: orange;
+    background-color: black
+}
+
+
+
+
+h2 {
+    color: teal;
+    background-color: black
+}
+
+
+
+
+h3 {
+    color: purple;
+    background-color: black
+}
+
+
+h4 {
+    color: burlywood;
+    background-color: black
+}
+
+
+.spanstyle {
+    color: none;
+    background-color: black;
+    text-decoration: line-through
+}
+
+
+.divstyle {
+    color: pink;
+    background-color: black;
+    text-decoration: underline
+}
+
+
+a {
+    color: #ff0000;
+    text-decoration: none;
+  }
+
+
+a:link {
+    color: red;
+  }
+
+
+a:hover {
+    color: yellow;
+  }
+
+
+a:visited {
+    color: green;
+  }
+
+
+
+
+
+
+
+
+
+
+
