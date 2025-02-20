@@ -2,7 +2,6 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     background-image: url(a5bg.png);
     background-repeat: repeat;
-
 }
 
 h1 {
@@ -59,7 +58,6 @@ nav li a{
   
 nav li a:hover{
       background-color: blue;
-      color: white;
   }
 
 footer {
