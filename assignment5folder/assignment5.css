@@ -78,6 +78,10 @@ a:link{
     font-style: bold;
 }
 
+nav a:link {
+    color: white;
+}
+
 div a{
     text-decoration: underline;
     color: red;
