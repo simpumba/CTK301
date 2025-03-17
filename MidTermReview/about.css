@@ -1,0 +1,15 @@
+aside {
+    grid-column: span 4;
+    background-color: lightblue;
+    font-weight: bold;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: justify;
+}
+main{
+    grid-column: span 8;
+    margin-left: 1em;
+}
+#float_right{
+    float: right;
+}
