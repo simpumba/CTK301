@@ -1,0 +1,29 @@
+.socials {
+    display: flex;
+    gap: 10px;
+}
+
+.socials a {
+    background-color: white;
+    padding: 0.5em;
+    border-radius: 50%;
+}
+
+.socials a:hover {
+    transform: scale(1.1); /* Enlarges icons slightly on hover */
+}
+
+svg {
+    width: 33px;
+    height: 33px; 
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0.5em 1em;
+    background-color: black;
+    color: white;
+}
+
