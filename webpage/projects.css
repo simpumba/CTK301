@@ -1,5 +1,6 @@
 body {
-    background-color: #999999;
+    background-color: gray;
+    background-image: url('test1.jpg'); 
     font-family: 'Roboto', sans-serif; 
   }
   
@@ -29,13 +30,13 @@ body {
   #wrapper {
     margin: 1em auto;
     padding: 0;
-    width: 960px;
+    width: 960px; /* This sets the page's width */
     border: 1px solid blue;
     background-color: #ffffff;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-  }
-  
+}
+
   header {
     grid-column: span 12;
     background-color: black;

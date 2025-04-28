@@ -1,0 +1,58 @@
+.section {
+    overflow: hidden; /* keeps floated elements contained */
+    margin-bottom: 40px; /* space between the two sections */
+  }
+  
+  .section img {
+    width: 600px; /* or whatever size looks good */
+    height: auto;
+    margin: 0 20px 20px 0; /* space around image */
+    border-radius: 10px; /* optional: round the corners */
+  }
+  
+  .right-image {
+    float: right;
+    margin: 0 0 20px 20px; /* adjust margin for float right */
+  }
+  
+  .left-image {
+    float: left;
+    margin: 0 20px 20px 0; /* adjust margin for float left */
+  }
+  
+  .section p {
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+
+  .video-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .video-gallery img {
+    width: 290px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  }
+  
+  .video-gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+  }
+
+  main {
+    grid-column: span 12;
+    padding: 20px;
+    background-color: white;
+    font-size: 14px;
+  }
+
+  
+  
+  

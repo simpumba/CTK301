@@ -1,5 +1,5 @@
 body {
-  background-color: #999999;
+  background-color: gray;
   font-family: 'Roboto', sans-serif; 
 }
 
@@ -27,9 +27,10 @@ main {
 }
 
 #main-content img {
-  display: block; /* Ensures the image is treated as a block element */
-  margin: 20px auto; /* Centers the image horizontally and adds spacing */
-  max-width: 100%; /* Ensures responsiveness by scaling the image */
+  display: block; /* Centers the image horizontally */
+  margin: 20px auto; /* Adds space above and below the image */
+  max-width: 100%; /* Adjust this percentage to control the maximum width */
+  height: auto; /* Ensures the aspect ratio is maintained */
   border-radius: 10px; /* Optional: Adds rounded corners */
 }
 
@@ -49,14 +50,12 @@ header {
   color: white;
   text-align: center;
   font-size: 2em;
- /* background-image: url(test.jpg); */
 }
 
 nav {
   grid-column: span 12;
   background-color: black;
   text-align: left;
-  /* background-image: url(test.jpg); */
 }
 
 nav ul {
@@ -85,4 +84,12 @@ nav ul li a:hover {
   color: cyan; /* Contrasting text color */
   border-color: cyan; /* Keeps the border pretty */
 }
+
+footer {
+  grid-column: span 12; 
+  background-color: black; 
+  color: white; 
+}
+
+
 
