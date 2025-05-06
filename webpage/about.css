@@ -1,8 +1,16 @@
+body {
+  background-color: gray;
+  background-image: url('test1.jpg'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif; 
+}
+
 .section {
     overflow: hidden; /* keeps floated elements contained */
     margin-bottom: 40px; /* space between the two sections */
   }
-  
+
   .section img {
     width: 600px; /* or whatever size looks good */
     height: auto;

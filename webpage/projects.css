@@ -1,9 +1,11 @@
 body {
-    background-color: gray;
-    background-image: url('test1.jpg'); 
-    font-family: 'Roboto', sans-serif; 
-  }
-  
+  background-color: gray;
+  background-image: url('test1.jpg'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif; 
+}
+
   header, #main-content p {
     font-family: 'Roboto', sans-serif; /* Apply font to specific elements */
   }
